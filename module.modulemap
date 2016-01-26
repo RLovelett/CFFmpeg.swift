@@ -1,0 +1,103 @@
+module CFFmpeg [system] {
+    module AVCodec {
+      header "/usr/include/libavcodec/avcodec.h"
+      link "avcodec"
+    }
+    module AVFilter {
+      header "/usr/include/libavfilter/avfilter.h"
+      link "avfilter"
+    }
+    module AVFilterGraph {
+      header "/usr/include/libavfilter/avfiltergraph.h"
+      link "avfilter"
+    }
+    module AVFilterBufferSink {
+      header "/usr/include/libavfilter/buffersink.h"
+      link "avfilter"
+    }
+    module AVFilterBufferSource {
+      header "/usr/include/libavfilter/buffersrc.h"
+      link "avfilter"
+    }
+    module AVDevice {
+      header "/usr/include/libavdevice/avdevice.h"
+      link "avdevice"
+    }
+    module AVFormat {
+      header "/usr/include/libavformat/avformat.h"
+      link "avformat"
+    }
+    module AVUtil {
+      header "/usr/include/libavutil/avutil.h"
+      link "avutil"
+    }
+    module AVUtilOptions {
+      header "/usr/include/libavutil/opt.h"
+      link "avutil"
+    }
+    module AVUtilChannelLayout {
+      header "/usr/include/libavutil/channel_layout.h"
+      link "avutil"
+    }
+    module AVUtilParseUtils {
+      header "/usr/include/libavutil/parseutils.h"
+      link "avutil"
+    }
+    module AVUtilSampleFormat {
+      header "/usr/include/libavutil/samplefmt.h"
+      link "avutil"
+    }
+    module AVUtilFIFO {
+      header "/usr/include/libavutil/fifo.h"
+      link "avutil"
+    }
+    module AVUtilIntReadWrite {
+      header "/usr/include/libavutil/intreadwrite.h"
+      link "avutil"
+    }
+    module AVUtilDict {
+      header "/usr/include/libavutil/dict.h"
+      link "avutil"
+    }
+    module AVUtilMathematics {
+      header "/usr/include/libavutil/mathematics.h"
+      link "avutil"
+    }
+    module AVUtilPixdesc {
+      header "/usr/include/libavutil/pixdesc.h"
+      link "avutil"
+    }
+    module AVUtilAVString {
+      header "/usr/include/libavutil/avstring.h"
+      link "avutil"
+    }
+    module AVUtilLibM {
+      header "/usr/include/libavutil/libm.h"
+      link "avutil"
+    }
+    module AVUtilImgUtils {
+      header "/usr/include/libavutil/imgutils.h"
+      link "avutil"
+    }
+    module AVUtilTimeStamp {
+      header "/usr/include/libavutil/timestamp.h"
+      link "avutil"
+    }
+    module AVUtilBPrint {
+      header "/usr/include/libavutil/bprint.h"
+      link "avutil"
+    }
+    module AVUtilTime {
+      header "/usr/include/libavutil/time.h"
+      link "avutil"
+    }
+    module AVUtilThreadMessage {
+      header "/usr/include/libavutil/threadmessage.h"
+      link "avutil"
+    }
+    module SWResample {
+      header "/usr/include/libswresample/swresample.h"
+      link "swresample"
+    }
+}
+
