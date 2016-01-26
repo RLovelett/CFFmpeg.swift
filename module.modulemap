@@ -71,10 +71,6 @@ module CFFmpeg [system] {
       header "/usr/include/libavutil/avstring.h"
       link "avutil"
     }
-    module AVUtilLibM {
-      header "/usr/include/libavutil/libm.h"
-      link "avutil"
-    }
     module AVUtilImgUtils {
       header "/usr/include/libavutil/imgutils.h"
       link "avutil"
